@@ -1,0 +1,7 @@
+#!/bin/bash
+
+problem=$1
+mkdir -p $problem
+cd $problem
+ln -s ../Makefile .
+touch solution.cpp input.txt output.txt
